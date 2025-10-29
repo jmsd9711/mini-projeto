@@ -1,0 +1,47 @@
+body{
+    padding: 20px;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+#nUrgente{
+    font-size: 20px;
+    padding: 30px;
+    margin: 5px;
+    border: 5px solid;
+    border-color: yellow;
+    width: 500px;
+    height: 400px;
+}
+
+#Urgente{
+    font-size: 20px;
+    padding: 30px;
+    border: 5px solid;
+    border-color: red;
+    margin: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+.nota.azul {
+  border-left-color: blue;
+}
+
+.nota.verde {
+  border-left-color: green;
+}
+
+.nota.roxo {
+  border-left-color: purple;
+}
+
+.remover{
+    display: flex;
+    justify-content: space-evenly;
+}
